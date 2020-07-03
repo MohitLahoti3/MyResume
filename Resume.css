@@ -1,0 +1,233 @@
+.sidenav {
+    width: 250px;
+    overflow: hidden;
+}
+
+.sidenav li>a {
+    padding: 0px 50px;
+    font-size: 16px;
+}
+
+.top {
+    padding-top: 5px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.main {
+    padding-left: 250px;
+    background-color: whitesmoke;
+}
+
+@media only screen and (max-width: 992px) {
+    .main {
+        padding-left: 0;
+    }
+}
+
+.header.col.s12 {
+    width: 100%;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 992px) {
+    .header.col.s12 {
+        padding: 0;
+        font-size: 25px;
+    }
+}
+
+.heading.col.s12 {
+    font-size: 60px;
+    font-weight: lighter;
+    background-color: #008073;
+    color: white;
+    padding-left: 3%;
+}
+
+.about.col.s12 {
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 0% 5%;
+}
+
+.experience.col.s10 {
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.jobLogo.col.s4 {
+    text-align: left;
+}
+
+.compName.col.s4 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 10px;
+    color: #008073;
+}
+
+.jobDesc.col.s4 {
+    text-align: right;
+    font-size: 20px;
+    padding-top: 15px;
+    color: brown;
+}
+
+.role {
+    padding-left: 1%;
+    color: gray;
+    font-size: 16px;
+}
+
+.roleDesc {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.duration {
+    font-size: small;
+    background-color: #80808075;
+    padding: 10px 0px 10px 10px;
+    font-weight: lighter;
+}
+
+.project.col.s10 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.education.col.s10 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skills.col.s6 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skillSet {
+    margin-top: 10px;
+}
+
+.bar {
+    border: 2px solid black;
+    height: 34px;
+    width: 300px;
+    border-radius: 17px;
+}
+
+.techName {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.insideBar {
+    height: 30px;
+    border-radius: 15px;
+    padding: 3px;
+    font-weight: 600;
+}
+
+.html {
+    width: 90%;
+    background-color: #4CAF50;
+}
+
+.css {
+    width: 85%;
+    background-color: #4CAF50;
+}
+
+.javascript {
+    width: 70%;
+    background-color: #4CAF50;
+}
+
+.jquery {
+    width: 80%;
+    background-color: #4CAF50;
+}
+
+.bootstrap {
+    width: 70%;
+    background-color: #4CAF50;
+}
+
+.materialize {
+    width: 65%;
+    background-color: #4CAF50;
+}
+
+.angular {
+    width: 50%;
+    background-color: #4CAF50;
+}
+
+.corejava {
+    width: 90%;
+    background-color: #4CAF50;
+}
+
+.advancejava {
+    width: 70%;
+    background-color: #4CAF50;
+}
+
+.j2ee {
+    width: 60%;
+    background-color: #4CAF50;
+}
+
+.sql {
+    width: 80%;
+    background-color: #4CAF50;
+}
+
+.contact.col.s12 {
+    background-color: black;
+}
+
+.enquiry.col.s12 {
+    text-align: center;
+}
+
+.enquiryHeading {
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.enquiryContent {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.enquiryButton {
+    border: 1px solid #64FFDA;
+    background-color: black;
+    color: #64FFDA;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-transform: none;
+}
+
+.socialIcons.col.s6 {
+    padding: 70px 0px 100px 0px;
+}
+
+.socialIcon {
+    color: white;
+    font-size: 40px;
+}
